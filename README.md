@@ -28,4 +28,5 @@ Despite the availability of medical indicators that depict increased risk of str
 
 ----
 # Data Sourcing
-[https://www.kaggle.com/fedesoriano/stroke-prediction-dataset]
+ The data set for this project was sourced from kaggle.com
+ [https://www.kaggle.com/fedesoriano/stroke-prediction-dataset]
