@@ -8,4 +8,10 @@ A stroke is a medical emergency that occurs when blood flow to a part of the bra
 According to World Health Organisation ,millions of people suffer stroke every year many of which could have been avoided through early detection and proper risk monitoring.Major risk factors for stroke include high blood pressure (the leading cause), smoking, diabetes, high cholesterol, obesity, and atrial fibrillation. 
 
 The purpose of this study is  to develope a machine learning model able to identity patients at high risk of stroke using lifestyle ,demographic and medical indicators.With this, high risk patients will be identified early for immediate intervetions
-Multiple machine learning models were implemented ,compared and the best was selected. These models include; Regression model,Decision Trees ,Support Vector Machine(SVM) and Randdom Forest models.
+
+Multiple machine learning models were implemented ,compared and the best was selected. These models include; Regression model,Decision Trees ,Support Vector Machine(SVM) and Random Forest models.
+
+-----
+# Problem Statement
+-----
+Despite the availability of medical indicators that depict increased risk of stroke,predicting its occurence remains difficult due to complex relationship between between demographic,lifestyle and clinical factors.This challenge was addressed by performing an exploratory data analysis on the data set and developing a machine learning classification model to predict stroke risk thus supporting early intervention through data driven insights.
