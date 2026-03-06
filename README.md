@@ -1,4 +1,4 @@
-# Stroke-Risk-Prediction Analysis
+# Stroke Risk Prediction: A Machine Learning Model
 
 # Project Overview
 
@@ -21,12 +21,22 @@ Despite the availability of medical indicators that depict increased risk of str
 * Data cleaning and wrangling
 * Perform Exploratoty Data Analysis
 * Identification of factors associated with stroke
-* Feature Encoding
+* Feature Engineering
 * Build a suitable classification model for analysis
 * Evaluate model performance
-* Provision of recommendations for early intervention
+* Recommendations and Insights for early intervention
 
 ----
 # Data Sourcing
  The data set for this project was sourced from kaggle.com
  [https://www.kaggle.com/fedesoriano/stroke-prediction-dataset]
+
+----
+# Tools Used
+* Python
+* Jupyter Notebook
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Scikit-learn
