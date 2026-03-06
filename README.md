@@ -21,9 +21,11 @@ Despite the availability of medical indicators that depict increased risk of str
 * Data cleaning and wrangling
 * Perform Exploratoty Data Analysis
 * Identification of factors associated with stroke
+* Feature Encoding
 * Build a suitable classification model for analysis
 * Evaluate model performance
 * Provision of recommendations for early intervention
 
 ----
 # Data Sourcing
+[https://www.kaggle.com/fedesoriano/stroke-prediction-dataset]
