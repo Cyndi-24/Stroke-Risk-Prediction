@@ -14,4 +14,14 @@ Multiple machine learning models were implemented ,compared and the best was sel
 -----
 # Problem Statement
 -----
-Despite the availability of medical indicators that depict increased risk of stroke,predicting its occurence remains difficult due to complex relationship between between demographic,lifestyle and clinical factors.This challenge was addressed by performing an exploratory data analysis on the data set and developing a machine learning classification model to predict stroke risk thus supporting early intervention through data driven insights.
+Despite the availability of medical indicators that depict increased risk of stroke,predicting its occurence remains difficult due to complex relationship between between demographic,lifestyle and clinical factors.This challenge was addressed by performing an exploratory data analysis on the data set and developing a machine learning classification model to predict stroke risk thus supporting early intervention through data-driven insights.
+
+----
+# Objectives
+----
+* Data cleaning and wrangling
+* Perform Exploratoty Data Analysis
+* Identification of factors associated with stroke
+* Build a suitable classification model for analysis
+* Evaluate model performance
+* Provision of recommendations for early intervention 
