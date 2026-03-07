@@ -1,4 +1,5 @@
 # Stroke Risk Prediction: A Machine Learning Model
+## Presented by Team Oracle
 
 # Project Overview
 
@@ -8,7 +9,7 @@ According to World Health Organisation ,millions of people suffer stroke every y
 
 The purpose of this study is  to develope a machine learning model able to identity patients at high risk of stroke using lifestyle ,demographic and medical indicators.With this, high risk patients will be identified early for immediate intervetions
 
-Multiple machine learning models were implemented ,compared and the best was selected. These models include; Regression model,Decision Trees ,Support Vector Machine(SVM) and Random Forest models.
+Multiple machine learning models were implemented ,compared and the best was selected. These models include; Logistic Regression model,Decision Trees , and Random Forest models.The model with the best performance was selected.
 
 -----
 # Problem Statement
@@ -44,3 +45,11 @@ Despite the availability of medical indicators that depict increased risk of str
 * Matplotlib
 * Seaborn
 * Scikit-learn
+
+---
+# Machine Learning Models Used
+* Logistic Regression: This is the most commonly used model for binary classification problems where the outcome has two possible results and in  this case the outcome variable is stroke or no stroke .This makes the logistic Regression a suitable starting model for predicting the probability of having a stroke and understanding how different health factors affect stroke risk.
+  
+* Decision Tree:This model mimics human decision making by splitting data into different branches based on feature value and how the contribute to stroke risk.It handles both numerical and categorical data and and captures non-linear relationship between variables.
+
+* Random Forest:This builds multiple decision trees and combines their predictions to improve accuracy and reliability compared to other models.This model reduces overfitting  and is able to handle larger datasets and many features as well.It is most likely to identify influential risk factors.
