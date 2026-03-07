@@ -53,3 +53,30 @@ Despite the availability of medical indicators that depict increased risk of str
 * Decision Tree:This model mimics human decision making by splitting data into different branches based on feature value and how the contribute to stroke risk.It handles both numerical and categorical data and and captures non-linear relationship between variables.
 
 * Random Forest:This builds multiple decision trees and combines their predictions to improve accuracy and reliability compared to other models.This model reduces overfitting  and is able to handle larger datasets and many features as well.It is most likely to identify influential risk factors.
+---
+
+# Exploratory Data Analysis(EDA) 
+## Data Manipulation Using Pandas and Numpy Libraries
+* Library Importation
+
+ 
+  
+* Dataset Importation
+
+
+
+* Data Cleaning:
+  Null Values were identified in the BMI column and was filled with the median value
+
+
+## Data Visualization and Distributions Using Matplotlib and Seaborn Libraries
+*  Work Type with Residence among People with Stroke
+
+
+
+Insight: This countplot shows that people across all work categories in the private sector had the highest number of stroke cases especially in the urban area. This could be due to higher stress roles in this regions while in the pediatric population there are much lower stroke cases.
+
+* Residence type with Smoking and Stroke
+
+
+
