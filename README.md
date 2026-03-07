@@ -31,6 +31,10 @@ Despite the availability of medical indicators that depict increased risk of str
  The data set for this project was sourced from kaggle.com
  [https://www.kaggle.com/fedesoriano/stroke-prediction-dataset]
 
+ ---
+ # Dataset Overview
+ The data set consist of 5,110 rows and 12 columns with each row representing a unique patient and the columns containing information on the demographics and clinical features of each patient.
+
 ----
 # Tools Used
 * Python
