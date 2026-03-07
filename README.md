@@ -79,4 +79,12 @@ Insight: This countplot shows that people across all work categories in the priv
 * Residence type with Smoking and Stroke
 
 
+Insight: This barplot shows people who have been previously or currently  married have a higher probability of stroke across all smoking categories compared to those who are not married likely due to the fact that the married population are generally older than the unmarried population showing that age is big risk factor to stroke
+
+* Gender Distribution
+
+
+Insight: The distribution shows that the gender with the higher stroke population is the females.This could also arise due to more females participating in the study.
+
+
 
