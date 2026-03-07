@@ -33,7 +33,7 @@ Despite the availability of medical indicators that depict increased risk of str
 
  ---
  # Dataset Overview
- The data set consist of 5,110 rows and 12 columns with each row representing a unique patient and the columns containing information on the demographics and clinical features of each patient.
+ The data set consist of 5,110 rows and 12 columns with each row representing a unique patient and the columns containing information on the demographics and clinical features of each patient such as ; age,gender,hypertension,average glucose level,BMI,smoking status, heart disease and work type
 
 ----
 # Tools Used
