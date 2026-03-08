@@ -115,5 +115,5 @@ In this project, several machine learning algorithms were implemented to predict
 * Random Forest:This builds multiple decision trees and combines their predictions to improve accuracy and reliability compared to other models.This model reduces overfitting  and is able to handle larger datasets and many features as well.
 
 ** Decision Tree:This model mimics human decision making by splitting data into different branches based on feature value and how the contribute to stroke risk.It handles both numerical and categorical data and and captures non-linear relationship between variables.
- 
+In this project, the Decision Tree model performed better than the other models tested, making it the most effective algorithm for predicting stroke risk. 
 ---
