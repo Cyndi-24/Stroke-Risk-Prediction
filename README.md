@@ -47,14 +47,6 @@ Despite the availability of medical indicators that depict increased risk of str
 * Scikit-learn
 
 ---
-# Machine Learning Models Used
-* Logistic Regression: This is the most commonly used model for binary classification problems where the outcome has two possible results and in  this case the outcome variable is stroke or no stroke .This makes the logistic Regression a suitable starting model for predicting the probability of having a stroke and understanding how different health factors affect stroke risk.
-  
-* Decision Tree:This model mimics human decision making by splitting data into different branches based on feature value and how the contribute to stroke risk.It handles both numerical and categorical data and and captures non-linear relationship between variables.
-
-* Random Forest:This builds multiple decision trees and combines their predictions to improve accuracy and reliability compared to other models.This model reduces overfitting  and is able to handle larger datasets and many features as well.It is most likely to identify influential risk factors.
----
-
 # Exploratory Data Analysis(EDA) 
 ## Data Manipulation Using Pandas and Numpy Libraries
 * Library Importation
@@ -111,4 +103,11 @@ Distribution of Medical Features
 
 Insight:The distribution of both hypertension and heart disease are heavily skewed towards 0 as a result of the class imbalance  and this was addressed during the modelling phase using SMOTE.
 
-#Machine Learning 
+#Machine Learning
+##Models Used
+* Logistic Regression: This is the most commonly used model for binary classification problems where the outcome has two possible results and in  this case the outcome variable is stroke or no stroke .This makes the logistic Regression a suitable starting model for predicting the probability of having a stroke and understanding how different health factors affect stroke risk.
+  
+* Decision Tree:This model mimics human decision making by splitting data into different branches based on feature value and how the contribute to stroke risk.It handles both numerical and categorical data and and captures non-linear relationship between variables.
+
+* Random Forest:This builds multiple decision trees and combines their predictions to improve accuracy and reliability compared to other models.This model reduces overfitting  and is able to handle larger datasets and many features as well.It is most likely to identify influential risk factors.
+---
