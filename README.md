@@ -189,6 +189,15 @@ e) Model Interpretability
 
 Finally,  Decision Trees are easy to interpret and visualize. Healthcare professionals can understand the decision rules used by the model, making it more suitable for real-world medical decision support.
 
+  ## Confusion Matrix Analysis
   
+
+To further evaluate the performance of the Decision Tree model, a confusion matrix was used. The confusion matrix provides a detailed breakdown of the model's predictions by comparing the actual values with the predicted values,confirming that the Decision Tree model provides reliable and balanced predictions for stroke risk classification.
+
+The model correctly identified 857 stroke cases, demonstrating strong ability to detect patients at risk.
+
+The number of false negatives (68) is relatively low, which is important in healthcare applications where missing a stroke case could have serious consequences.
+
+The model also correctly classified a large number of non-stroke cases (811).
 
 
