@@ -96,3 +96,17 @@ Insight:This shows an imbalance between the population with stroke (4.31%) and t
 
 Insight: The BMI range is narrower in children and increases as people attain adulthood.People between 20 and 80 years have BMI between 20 and 40
 
+* Stroke vs age
+
+
+Insight:Stroke is either 0(NO) or 1(YES).At the point where stroke is = 1,the dots are lighter for younger people but solid around 40-50yrs indicating that age is a major determinant of stroke.
+
+Pair plot Correlation 
+
+
+Insight:This shows that stroke cases are heavily concentrated among older individuals and those with higher glucose levels.Thus showing a weak positive correlation among the three values  with a value 0.132 but this value cannot be ignored because this is a medical dataset
+
+Distribution of Medical Features 
+
+
+Insight:The distribution of both hypertension and heart disease are heavily skewed towards 0 as a result of the class imbalance  and this was addressed during the modelling Phase using SMOTE
