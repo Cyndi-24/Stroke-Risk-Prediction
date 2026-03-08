@@ -109,4 +109,6 @@ Insight:This shows that stroke cases are heavily concentrated among older indivi
 Distribution of Medical Features 
 
 
-Insight:The distribution of both hypertension and heart disease are heavily skewed towards 0 as a result of the class imbalance  and this was addressed during the modelling Phase using SMOTE
+Insight:The distribution of both hypertension and heart disease are heavily skewed towards 0 as a result of the class imbalance  and this was addressed during the modelling phase using SMOTE.
+
+#Machine Learning 
