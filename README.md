@@ -117,6 +117,8 @@ In this project, *the Decision Tree model* performed better than the other model
 ---
 ## Data Preparation For Modelling
 
+
+
 The following steps were taken to properly preprocess the dataset and to ensure it was suitable enough  for model training:
 
 a)The missing values under the BMI column were filled with the median value of thw BMI
@@ -128,3 +130,65 @@ c)The categorical variables such as; gender,smoking status,ever-married,work-typ
 d)The dataset contains far fewer stroke cases(4.13%) compared to non-stroke cases(95.69%), which creates a class imbalance problem. If not handled, the model may become biased toward predicting the majority class.To address this, SMOTE (Synthetic Minority Oversampling Technique) was used
 
 e)The dataset was split into training and test using the 80/20 ratio to train the machine learning model and to evaluate the model's performance on unseen data respectively.
+
+---
+
+## Model Evaluation - Decision Tree Classifier
+
+
+
+After training the Decision Tree model, its performance was evaluated using a classification report, which includes precision, recall, F1-score, and accuracy. These metrics help assess how well the model predicts stroke and non-stroke cases.
+
+* Accuracy:
+The model achieved an overall accuracy of 91%, meaning that 91% of all predictions made by the model were correct showing strong overall performance in classifying patients into stroke and non-stroke categories.
+
+* Precision: Precision measures how many of the predicted cases were actually correct.
+ Class 0 (No Stroke): Precision = 0.92
+ This means that 92% of the instances predicted as non-stroke were truly non-stroke cases.
+ Class 1 (Stroke): Precision = 0.89
+ This indicates that 89% of the cases predicted as stroke were correctly identified.High precision is important because it reduces false positive predictions.
+
+* Recall: Recall measures how well the model identifies actual cases of each class.
+Class 0 (No Stroke): Recall = 0.89
+The model correctly identified 89% of all non-stroke cases.
+Class 1 (Stroke): Recall = 0.93
+The model successfully detected 93% of the actual stroke cases.
+This is particularly important in healthcare because missing a stroke case (false negative) could have serious consequences. A recall of 0.93 shows that the model is highly effective at identifying patients at risk.
+
+* F1-Score: The F1-score is the harmonic mean of precision and recall, providing a balanced measure of model performance.
+Class 0 F1-score: 0.91
+Class 1 F1-score: 0.91
+The equal F1-scores indicate that the model performs consistently well across both classes.
+
+* Support: Support represents the number of actual instances for each class in the dataset.
+Non-stroke cases: 912
+Stroke cases: 925
+This nearly balanced distribution reflects the effect of the SMOTE technique used earlier to handle class imbalance.
+
+## Why the Decision Tree Model Performed Best
+
+Among the machine learning models tested, the Decision Tree Classifier produced the best overall performance for the stroke prediction task. This can be attributed to several factors related to the nature of the dataset and the strengths of the algorithm.
+
+a) Ability to Handle Mixed Data Types
+
+The stroke dataset contains both numerical variables (such as age, BMI, and glucose level) and categorical variables (such as gender, work type, and smoking status). Decision Trees are well suited for datasets with mixed feature types because they split the data based on feature values without requiring complex transformations.
+
+b) Capturing Non-Linear Relationships
+
+Stroke risk is influenced by multiple interacting factors such as age, hypertension, heart disease, and lifestyle choices. Decision Trees are capable of capturing non-linear relationships and complex feature interactions, which helps improve predictive performance.
+
+c) Improved Performance After Handling Class Imbalance
+
+The dataset originally contained more non-stroke cases than stroke cases, which could bias the model. The use of SMOTE (Synthetic Minority Oversampling Technique) balanced the dataset by generating synthetic examples of the minority class. This allowed the Decision Tree model to learn patterns associated with stroke cases more effectively.
+
+d) Strong Predictive Performance
+
+The Decision Tree model demonstrates strong and balanced predictive performance, with high precision, recall, and F1-scores across both classes. The particularly high recall for stroke cases (0.93) suggests that the model is effective at identifying individuals at risk of stroke, which is crucial in medical prediction tasks.
+
+e) Model Interpretability
+
+Finally,  Decision Trees are easy to interpret and visualize. Healthcare professionals can understand the decision rules used by the model, making it more suitable for real-world medical decision support.
+
+  
+
+
