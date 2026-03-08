@@ -103,7 +103,8 @@ Distribution of Medical Features
 
 Insight:The distribution of both hypertension and heart disease are heavily skewed towards 0 as a result of the class imbalance  and this was addressed during the modelling phase using SMOTE.
 
-#Machine Learning Overview 
+# Machine Learning Overview 
+
 In this project, several machine learning algorithms were implemented to predict the likelihood of a patient experiencing a stroke based on demographic and health-related features. These models were selected to compare performance across linear, probabilistic, and ensemble-based approaches and the best performing model was selected.
 
 ## Models Used
