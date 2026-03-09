@@ -62,13 +62,10 @@ Despite the availability of medical indicators that depict increased risk of str
 
 ![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/data_cleaning.png)
 
-  Null Values were identified in the BMI column and was filled with the median value
-  
-
 ## Data Visualization and Distributions Using Matplotlib and Seaborn Libraries
 *  Work Type with Residence among People with Stroke
-
-
+  
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/Work_type%20residence_with_stroke%20.png)
 
 Insight: This countplot shows that people across all work categories in the private sector had the highest number of stroke cases especially in the urban area. This could be due to higher stress roles in this regions while in the pediatric population there are much lower stroke cases.
 
