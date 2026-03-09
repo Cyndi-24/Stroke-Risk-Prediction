@@ -213,7 +213,7 @@ The model also correctly classified a large number of non-stroke cases (811).
 
 ## Model Interpretation: Decision Tree Analysis
 
-
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/fitted_model.png)
 
 ​To understand how our model predicts stroke risk, we visualised a section of the Decision Tree.
 ​Key Components of the Tree include 
