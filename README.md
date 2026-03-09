@@ -199,22 +199,28 @@ The model correctly identified 857 stroke cases, demonstrating strong ability to
 The number of false negatives (68) is relatively low, which is important in healthcare applications where missing a stroke case could have serious consequences.
 Model Interpretation 
 The model also correctly classified a large number of non-stroke cases (811).
-Model Interpretation: Decision Tree Analysis
-​To understand how our model predicts stroke risk, we visualised a section of the Decision Tree. This helps us move away from a "black box" approach and see exactly which features the model prioritises.
-​🔍 Key Components of the Tree
-​Root Node (Top): The model identifies Age as the most significant predictor. The first split occurs at 49.001 years.
-​Gini Impurity: This value represents how "mixed" the data is in each node.
-​Gini = 0.5 (Root) indicates a perfect 50/50 split (maximum uncertainty).
-​Gini = 0.184 (Left Orange Node) shows high certainty for the "No Stroke" class.
-​Samples: Represents the number of records (patients) being evaluated at that specific branch.
-​Value [x, y]: Shows the distribution of [No Stroke, Stroke] cases.
-​📈 Business & Health Insights
-​The Age Threshold: Patients under 49 are classified with high confidence into the "No Stroke" category (2,178 cases vs 248).
-​High-Risk Segment: The model further segments older patients at the 67-year mark. Those over 67 (far-right blue node) represent the highest density of stroke cases in this dataset (n=2,253).
-​Model Confidence: The deep blue and orange colours indicate "pure" nodes where the model is very confident in its prediction, while the light blue node (Gini = 0.495) suggests that age alone isn't enough to be certain, and other features (like BMI or Glucose levels) might be needed for a tie-breaker.
-Instead of a "black box" that just spits out a result, I used a Decision Tree to see the logic behind the predictions. Think of this as a flowchart the computer uses to assess risk.
-​📍 The "Big Picture" Takeaways
-​Age is the Primary Driver: The model immediately points to age as the most important factor. It creates a "fork in the road" at 49 years old.
-​The "Low-Risk" Group: For those under 49, the model is very confident (as seen in the orange node) that the risk is low. In this group, almost 90% of the cases were "No Stroke."
-​The "Caution" Zone: For those over 49, the model digs deeper. It identifies 67 years old as another critical tipping point.
-​High-Risk Identification: The darkest blue node shows our highest-risk group—individuals over 67. In this category, the model found that stroke cases significantly outnumbered non-stroke cases.
+
+## Model Interpretation: Decision Tree Analysis
+
+
+
+​To understand how our model predicts stroke risk, we visualised a section of the Decision Tree.
+​Key Components of the Tree include 
+* ​Root Node (Top): The model identifies Age as the most significant predictor. The first split occurs at 49.001 years.
+  
+* ​Gini Impurity: This value represents how "mixed" the data is in each node.
+  
+* ​Gini = 0.5 (Root) indicates a perfect 50/50 split (maximum uncertainty).
+  
+* ​Gini = 0.184 (Left Orange Node) shows high certainty for the "No Stroke" class.
+  
+* ​Samples: Represents the number of records (patients) being evaluated at that specific branch.
+  
+* ​Value [x, y]: Shows the distribution of [No Stroke, Stroke] cases.
+
+## Insights
+* The Age is the primary predictor:Patients under 49 are classified with high confidence into the "No Stroke" category (2,178 cases vs 248).
+
+* ​High-Risk Segment:For those over 49 the model digs deeper and further segments older patients at the 67-year mark. Those over 67 (far-right blue node) represent the highest density of stroke cases in this dataset (n=2,253).
+ 
+* ​Model Confidence: The deep blue and orange colours indicate "pure" nodes where the model is very confident in its prediction, while the light blue node (Gini = 0.495) suggests that age alone isn't enough to be certain, and other features (like BMI or Glucose levels) might be needed for a tie-breaker.
