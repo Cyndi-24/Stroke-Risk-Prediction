@@ -95,12 +95,13 @@ Insight: The BMI range is narrower in children and increases as people attain ad
 
 * Stroke vs age
 
-![image alt](
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/stroke_vs_age.png)
 
 Insight:Stroke is either 0(NO) or 1(YES).At the point where stroke is = 1,the dots are lighter for younger people but solid around 40-50yrs indicating that age is a major determinant of stroke.
 
 * Pair plot Correlation 
 
+![image alt](
 
 Insight:This shows that stroke cases are heavily concentrated among older individuals and those with higher glucose levels.Thus showing a weak positive correlation among the three values  with a value 0.132 but this value cannot be ignored because this is a medical dataset
 
