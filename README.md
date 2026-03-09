@@ -89,12 +89,13 @@ Insight:This shows an imbalance between the population with stroke (4.31%) and t
 
 * Age vs BMI
 
-![image alt](
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/age_vs_bmi.png)
 
 Insight: The BMI range is narrower in children and increases as people attain adulthood.People between 20 and 80 years have BMI between 20 and 40
 
 * Stroke vs age
 
+![image alt](
 
 Insight:Stroke is either 0(NO) or 1(YES).At the point where stroke is = 1,the dots are lighter for younger people but solid around 40-50yrs indicating that age is a major determinant of stroke.
 
