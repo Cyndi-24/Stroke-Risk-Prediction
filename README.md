@@ -60,9 +60,10 @@ Despite the availability of medical indicators that depict increased risk of str
 
 * Data Cleaning
 
-![image alt](
-  Null Values were identified in the BMI column and was filled with the median value
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/data_cleaning.png)
 
+  Null Values were identified in the BMI column and was filled with the median value
+  
 
 ## Data Visualization and Distributions Using Matplotlib and Seaborn Libraries
 *  Work Type with Residence among People with Stroke
