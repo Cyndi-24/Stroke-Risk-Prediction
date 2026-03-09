@@ -226,3 +226,11 @@ The model also correctly classified a large number of non-stroke cases (811).
 * ​Model Confidence: The deep blue and orange colours indicate "pure" nodes where the model is very confident in its prediction, while the light blue node (Gini = 0.495) suggests that age alone isn't enough to be certain, and other features (like BMI or Glucose levels) might be needed for a tie-breaker.
 
 # Recommendations
+ Clinical & Practical Recommendations
+​Targeted Screening Programs: Since the model identifies Age 49 and 67 as significant risk thresholds, healthcare providers should prioritise cardiovascular screenings (blood pressure, cholesterol) for patients entering these age brackets.
+​Early Intervention: For the "High-Risk" group (Age 67+), the data suggests a need for more aggressive preventative care or remote monitoring tools to track stroke warning signs.
+​Educational Outreach: Public health campaigns could be tailored specifically toward the 50+ demographic, focusing on lifestyle changes that mitigate the risks identified by the model.
+​💻 Technical & Model Recommendations
+​Feature Expansion: To improve the "Caution" zones where the model is less certain (the light blue nodes), future iterations should include additional variables like Family History, Smoking Status, or Physical Activity levels.
+​Address Class Imbalance: If the original dataset had far more "No Stroke" cases than "Stroke" cases, I’d recommend using techniques like SMOTE (Synthetic Minority Over-sampling Technique) to ensure the model learns the "Stroke" patterns more effectively.
+​Try Ensemble Methods: While the Decision Tree is great for visibility, I recommend testing Random Forests or XGBoost to see if we can boost accuracy while keeping this tree as a "map" for explanation.
