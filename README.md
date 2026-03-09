@@ -201,7 +201,7 @@ Finally,  Decision Trees are easy to interpret and visualize. Healthcare profess
 
   ## Confusion Matrix Analysis
   
-![image alt](
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/confusion_matrix.png)
 
 To further evaluate the performance of the Decision Tree model, a confusion matrix was used. The confusion matrix provides a detailed breakdown of the model's predictions by comparing the actual values with the predicted values,confirming that the Decision Tree model provides reliable and balanced predictions for stroke risk classification.
 
