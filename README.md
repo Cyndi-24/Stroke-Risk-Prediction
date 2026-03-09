@@ -59,6 +59,8 @@ Despite the availability of medical indicators that depict increased risk of str
 ![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/data_importation.png)
 
 * Data Cleaning
+
+![image alt](
   Null Values were identified in the BMI column and was filled with the median value
 
 
