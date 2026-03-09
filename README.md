@@ -101,7 +101,7 @@ Insight:Stroke is either 0(NO) or 1(YES).At the point where stroke is = 1,the do
 
 * Pair plot Correlation 
 
-![image alt](
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/correlation_pairplot.png)
 
 Insight:This shows that stroke cases are heavily concentrated among older individuals and those with higher glucose levels.Thus showing a weak positive correlation among the three values  with a value 0.132 but this value cannot be ignored because this is a medical dataset
 
