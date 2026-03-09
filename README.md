@@ -50,7 +50,7 @@ Despite the availability of medical indicators that depict increased risk of str
 # Exploratory Data Analysis(EDA) 
 ## Data Manipulation Using Pandas and Numpy Libraries
 * Library Importation
-
+![image alt](
  
   
 * Dataset Importation
