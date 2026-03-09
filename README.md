@@ -77,7 +77,7 @@ Insight: This barplot shows people who have been previously or currently  marrie
 
 * Gender Distribution
 
-!i[image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/distribution_by_gender.png)
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/distribution_by_gender.png)
 
 Insight: The distribution shows that the gender with the higher stroke population is the females.This could also arise due to more females participating in the study.
 
