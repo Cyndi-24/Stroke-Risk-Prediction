@@ -107,6 +107,7 @@ Insight:This shows that stroke cases are heavily concentrated among older indivi
 
 * Distribution of Medical Features 
 
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/distribution.png)
 
 Insight:The distribution of both hypertension and heart disease are heavily skewed towards 0 as a result of the class imbalance  and this was addressed during the modelling phase using SMOTE.
 
