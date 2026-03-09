@@ -83,9 +83,9 @@ Insight: The distribution shows that the gender with the higher stroke populatio
 
 * Stroke vs Non-Stroke
 
-![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/stroke_vs_age.png)
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/strokevsnonstrokke.png)
 
-Insight:This shows an imbalance between the population with stroke (4.31%) and those without stroke(95.69%) and with this SMOTE Analysis was introduced to the analysis to bring a balance between both
+Insight:This shows an imbalance between the population with stroke (4.31%) and those without stroke(95.69%) and with this SMOTE Analysis was introduced to the analysis to bring a balance between both classes
 
 * Age vs BMI
 
