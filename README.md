@@ -250,4 +250,3 @@ d)​Feature Expansion: To improve the "Caution" zones where the model is less c
 e) As the model is deployed and new patient data becomes available, the data science team must retrain the model annually to account for shifts in population health (e.g., rising obesity rates in younger people).
 
 
-​Try Ensemble Methods: While the Decision Tree is great for visibility, I recommend testing Random Forests or XGBoost to see if we can boost accuracy while keeping this tree as a "map" for explanation.
