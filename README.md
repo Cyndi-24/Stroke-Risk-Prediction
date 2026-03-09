@@ -145,7 +145,7 @@ e)The dataset was split into training and test using the 80/20 ratio to train th
 
 ## Model Evaluation - Decision Tree Classifier
 
-
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/classification_report.png)
 
 After training the Decision Tree model, its performance was evaluated using a classification report, which includes precision, recall, F1-score, and accuracy. These metrics help assess how well the model predicts stroke and non-stroke cases.
 
@@ -201,6 +201,7 @@ Finally,  Decision Trees are easy to interpret and visualize. Healthcare profess
 
   ## Confusion Matrix Analysis
   
+![image alt](
 
 To further evaluate the performance of the Decision Tree model, a confusion matrix was used. The confusion matrix provides a detailed breakdown of the model's predictions by comparing the actual values with the predicted values,confirming that the Decision Tree model provides reliable and balanced predictions for stroke risk classification.
 
