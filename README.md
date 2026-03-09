@@ -224,3 +224,5 @@ The model also correctly classified a large number of non-stroke cases (811).
 * ​High-Risk Segment:For those over 49 the model digs deeper and further segments older patients at the 67-year mark. Those over 67 (far-right blue node) represent the highest density of stroke cases in this dataset (n=2,253).
  
 * ​Model Confidence: The deep blue and orange colours indicate "pure" nodes where the model is very confident in its prediction, while the light blue node (Gini = 0.495) suggests that age alone isn't enough to be certain, and other features (like BMI or Glucose levels) might be needed for a tie-breaker.
+
+# Recommendations
