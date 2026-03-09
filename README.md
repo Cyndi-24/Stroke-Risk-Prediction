@@ -50,7 +50,7 @@ Despite the availability of medical indicators that depict increased risk of str
 # Exploratory Data Analysis(EDA) 
 ## Data Manipulation Using Pandas and Numpy Libraries
 * Library Importation
-![image alt](
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/libraries_importation.png)
  
   
 * Dataset Importation
