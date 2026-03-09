@@ -127,7 +127,7 @@ In this project, *the Decision Tree model* performed better than the other model
 ---
 ## Data Preparation For Modelling
 
-
+![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/feature_encoding.png)
 
 The following steps were taken to properly preprocess the dataset and to ensure it was suitable enough  for model training:
 
