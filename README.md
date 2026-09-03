@@ -1,5 +1,4 @@
 # Stroke Risk Prediction: A Machine Learning Model
-## Presented by Team Oracle
 
 ![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/stroke_prediction_image.png)
 
