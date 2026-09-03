@@ -168,30 +168,6 @@ Non-stroke cases: 912
 Stroke cases: 925
 This nearly balanced distribution reflects the effect of the SMOTE technique used earlier to handle class imbalance.
 
-## Why the Decision Tree Model Performed Best
-
-Among the machine learning models tested, the Decision Tree Classifier produced the best overall performance for the stroke prediction task. This can be attributed to several factors related to the nature of the dataset and the strengths of the algorithm.
-
-a) Ability to Handle Mixed Data Types
-
-The stroke dataset contains both numerical variables (such as age, BMI, and glucose level) and categorical variables (such as gender, work type, and smoking status). Decision Trees are well suited for datasets with mixed feature types because they split the data based on feature values without requiring complex transformations.
-
-b) Capturing Non-Linear Relationships
-
-Stroke risk is influenced by multiple interacting factors such as age, hypertension, heart disease, and lifestyle choices. Decision Trees are capable of capturing non-linear relationships and complex feature interactions, which helps improve predictive performance.
-
-c) Improved Performance After Handling Class Imbalance
-
-The dataset originally contained more non-stroke cases than stroke cases, which could bias the model. The use of SMOTE (Synthetic Minority Oversampling Technique) balanced the dataset by generating synthetic examples of the minority class. This allowed the Decision Tree model to learn patterns associated with stroke cases more effectively.
-
-d) Strong Predictive Performance
-
-The Decision Tree model demonstrates strong and balanced predictive performance, with high precision, recall, and F1-scores across both classes. The particularly high recall for stroke cases (0.93) suggests that the model is effective at identifying individuals at risk of stroke, which is crucial in medical prediction tasks.
-
-e) Model Interpretability
-
-Finally,  Decision Trees are easy to interpret and visualize. Healthcare professionals can understand the decision rules used by the model, making it more suitable for real-world medical decision support.
-
   ## Confusion Matrix Analysis
   
 ![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/confusion_matrix.png)
