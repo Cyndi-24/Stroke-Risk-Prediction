@@ -108,18 +108,6 @@ Insight:This shows that stroke cases are heavily concentrated among older indivi
 
 Insight:The distribution of both hypertension and heart disease are heavily skewed towards 0 as a result of the class imbalance  and this was addressed during the modelling phase using SMOTE.
 
-# Machine Learning 
-
-In this project, several machine learning algorithms were implemented to predict the likelihood of a patient experiencing a stroke based on demographic and health-related features. These models were selected to compare performance across linear, probabilistic, and ensemble-based approaches and the best performing model was selected.
-
-## Models Used
-* Logistic Regression
-* Random Forest
-* Decision Tree
-  
-In this project, *the Decision Tree model* performed better than the other models tested, making it the most effective algorithm for predicting stroke risk. 
-
----
 ## Data Preparation For Modelling
 
 ![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/feature_encoding.png)
@@ -136,7 +124,17 @@ d)The dataset contains far fewer stroke cases(4.13%) compared to non-stroke case
 
 e)The dataset was split into training and test using the 80/20 ratio to train the machine learning model and to evaluate the model's performance on unseen data respectively.
 
----
+# Machine Learning 
+
+In this project, several machine learning algorithms were implemented to predict the likelihood of a patient experiencing a stroke based on demographic and health-related features. These models were selected to compare performance across linear, probabilistic, and ensemble-based approaches and the best performing model was selected.
+
+## Models Used
+* Logistic Regression
+* Random Forest
+* Decision Tree
+  
+In this project, *the Decision Tree model* performed better than the other models tested, making it the most effective algorithm for predicting stroke risk. 
+
 
 ## Model Evaluation - Decision Tree Classifier
 
