@@ -160,13 +160,11 @@ This nearly balanced distribution reflects the effect of the SMOTE technique use
   
 ![image alt](https://github.com/Cyndi-24/Stroke-Risk-Prediction/blob/main/Stroke_prediction/Stroke_prediction_images/confusion_matrix.png)
 
-To further evaluate the performance of the Decision Tree model, a confusion matrix was used. The confusion matrix provides a detailed breakdown of the model's predictions by comparing the actual values with the predicted values,confirming that the Decision Tree model provides reliable and balanced predictions for stroke risk classification.
+The confusion matrix provides a detailed breakdown of the model's predictions by comparing the actual values with the predicted values,confirming that the Decision Tree model provides reliable and balanced predictions for stroke risk classification.
 
 The model correctly identified 857 stroke cases, demonstrating strong ability to detect patients at risk.
 
 The number of false negatives (68) is relatively low, which is important in healthcare applications where missing a stroke case could have serious consequences.
-Model Interpretation 
-The model also correctly classified a large number of non-stroke cases (811).
 
 ## Model Interpretation: Decision Tree Analysis
 
