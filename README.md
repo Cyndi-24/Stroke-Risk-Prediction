@@ -6,9 +6,7 @@
 
 According to World Health Organisation ,millions of people suffer stroke every year many of which could have been avoided through early detection and proper risk monitoring.Major risk factors for stroke include high blood pressure (the leading cause), smoking, diabetes, high cholesterol, obesity, and atrial fibrillation. 
 
-The purpose of this study is  to develope a machine learning model able to identity patients at high risk of stroke using lifestyle ,demographic and medical indicators.With this, high risk patients will be identified early for immediate intervetions
-
-Multiple machine learning models were implemented ,compared and the best was selected. These models include; Logistic Regression model,Decision Trees , and Random Forest models.The model with the best performance was selected.
+The purpose of this study is to develope a machine learning model able to identity patients at high risk of stroke using lifestyle ,demographic and medical indicators.With this, high risk patients will be identified early for immediate intervetions
 
 -----
 # Problem Statement
