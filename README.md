@@ -16,10 +16,7 @@ Despite the availability of medical indicators that depict increased risk of str
 ----
 # Objectives
 
-* Data cleaning and wrangling
 * Perform Exploratoty Data Analysis
-* Identification of factors associated with stroke
-* Feature Engineering
 * Build a suitable classification model for analysis
 * Evaluate model performance
 * Recommendations and Insights for early intervention
